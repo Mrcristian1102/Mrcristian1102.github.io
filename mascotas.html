@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mis mascotas - Portafolio de [Tu Nombre]" />
+  <title>Mis Mascotas | [Cristian Silva]</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/estructura.css" />
+  <link rel="stylesheet" href="css/mascotas.css" />
+</head>
+
+<body>
+
+  <!-- ============================
+  NAVEGACIÓN
+  Flexbox: logo | menú
+  ============================ -->
+  <nav>
+    <div class="contenedor">
+
+      <a href="./index.html" class="logo">
+        <span>[</span>Cristian Silva<span>]</span>
+      </a>
+
+      <ul class="menu">
+        <li><a href="./index.html">Portafolio</a></li>
+        <li><a href="index.html#sobre-mi">Sobre Mí</a></li>
+        <li><a href="index.html#proyectos">Proyectos</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
+        <li><a href="./mascotas.html" class="activo">🐾 Mascotas</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <!-- ============================
+  CABECERA DE MASCOTAS
+  ============================ -->
+  <header class="cabecera-mascotas">
+
+    <!-- Enlace de regreso al portafolio -->
+    <a href="./index.html" class="boton-regresar">← Volver al Portafolio</a>
+
+    <div class="etiqueta">🐾 Sección especial</div>
+    <h1>Mis <span>Mascotas</span></h1>
+    <p>Tener a mis animales cerca es lo que me mantiene activo y 
+      con ganas de seguir armando proyectos nuevos.</p>
+
+  </header>
+
+
+  <div class="contenedor">
+
+    <!-- ============================
+    GALERÍA PRINCIPAL
+    CSS Grid: 3 columnas
+    Con tarjeta grande span 2
+    ============================ -->
+    <section class="seccion-galeria">
+
+      <h2>Conoce a mis <span>compañeros</span></h2>
+
+      <!-- Cuadrícula con CSS Grid -->
+      <ul class="galeria-cuadricula">
+
+        <!-- Mascota 1 - GRANDE (span 2 columnas) -->
+        <li class="tarjeta-mascota tarjeta-grande">
+          <!-- Si tienes foto: <img src="imagenes/mascotas/rocky.jpg" alt="Rocky el perro" /> -->
+          <div class="imagen-placeholder">🐕</div>
+          <article>
+            <span class="badge">🐕 Perro</span>
+            <h3>Rocky</h3>
+            <p>Mi mejor amigo de cuatro patas. Un Labrador Retriever dorado
+            lleno de energía. Le encanta correr y jugar con la pelota.</p>
+            <div class="caracteristicas">
+              <span class="caracteristica">Juguetón</span>
+              <span class="caracteristica">Labrador</span>
+              <span class="caracteristica">5 años</span>
+            </div>
+          </article>
+        </li>
+
+        <!-- Mascota 2 -->
+        <li class="tarjeta-mascota">
+          <div class="imagen-placeholder">🐱</div>
+          <article>
+            <span class="badge">🐱 Gata</span>
+            <h3>Luna</h3>
+            <p>Una gata gris con ojos color miel. Tranquila, elegante
+            y le fascina observar los pájaros desde la ventana.</p>
+            <div class="caracteristicas">
+              <span class="caracteristica">Independiente</span>
+              <span class="caracteristica">Persa</span>
+              <span class="caracteristica">3 años</span>
+            </div>
+          </article>
+        </li>
+
+        <!-- Mascota 3 -->
+        <li class="tarjeta-mascota">
+          <div class="imagen-placeholder">🐶</div>
+          <article>
+            <span class="badge">🐕 Perro</span>
+            <h3>Mango</h3>
+            <p>Un Chihuahua color caramelo con personalidad enorme.
+            Valiente y enamorado de sus juguetes de peluche.</p>
+            <div class="caracteristicas">
+              <span class="caracteristica">Valiente</span>
+              <span class="caracteristica">Chihuahua</span>
+              <span class="caracteristica">2 años</span>
+            </div>
+          </article>
+        </li>
+
+        <!-- Mascota 4 - GRANDE (span 2 columnas) -->
+        <li class="tarjeta-mascota tarjeta-grande">
+          <div class="imagen-placeholder">🐇</div>
+          <article>
+            <span class="badge">🐇 Conejo</span>
+            <h3>Nieve</h3>
+            <p>Un conejo blanco con manchas grises que conquistó todos los
+            corazones. Ama las zanahorias y brincar por la sala.</p>
+            <div class="caracteristicas">
+              <span class="caracteristica">Traviesa</span>
+              <span class="caracteristica">Holland Lop</span>
+              <span class="caracteristica">1 año</span>
+            </div>
+          </article>
+        </li>
+
+        <!-- Mascota 5 -->
+        <li class="tarjeta-mascota">
+          <div class="imagen-placeholder">🦁</div>
+          <article>
+            <span class="badge">🐱 Gato</span>
+            <h3>Simba</h3>
+            <p>Un gato naranja atigrado con actitud de rey. Dormilón,
+            cariñoso cuando quiere y dueño de cada rincón.</p>
+            <div class="caracteristicas">
+              <span class="caracteristica">Atigrado</span>
+              <span class="caracteristica">Dormilón</span>
+              <span class="caracteristica">4 años</span>
+            </div>
+          </article>
+        </li>
+
+        <!-- Mascota 6 -->
+        <li class="tarjeta-mascota">
+          <div class="imagen-placeholder">🐾</div>
+          <article>
+            <span class="badge">🐕 Perra</span>
+            <h3>Canela</h3>
+            <p>Una Beagle tricolor con el olfato más poderoso de la cuadra.
+            Le encanta explorar el jardín y seguir rastros.</p>
+            <div class="caracteristicas">
+              <span class="caracteristica">Exploradora</span>
+              <span class="caracteristica">Beagle</span>
+              <span class="caracteristica">6 años</span>
+            </div>
+          </article>
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- Enlace de regreso al final de la página -->
+    <div style="text-align:center; padding: 40px 0; border-top: 1px solid #2a2a2a; margin-top: 20px;">
+      <a href="./index.html" class="boton-regresar">← Volver al Portafolio</a>
+    </div>
+
+  </div>
+
+
+  <!-- ============================
+  PIE DE PÁGINA
+  ============================ -->
+  <footer>
+    <div class="contenedor">
+      <p>© 2025 <span>[Tu Nombre]</span> · Todos los derechos reservados</p>
+      <ul class="redes">
+        <li><a href="https://github.com/Mrcristian1102" target="_blank">🐙</a></li>
+        <li><a href="./index.html" title="Volver al portafolio">🏠</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

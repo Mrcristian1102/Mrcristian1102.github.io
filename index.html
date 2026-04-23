@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio personal de [Tu Nombre]" />
+  <title>Mi Portafolio | [Cristian Silva]</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/estructura.css" />
+  <link rel="stylesheet" href="css/portfolio.css" />
+</head>
+
+<body>
+
+  <!-- ============================
+  NAVEGACIÓN
+  ============================ -->
+  <nav>
+    <div class="contenedor">
+
+      <!-- Logo -->
+      <a href="./index.html" class="logo">
+        <span>[</span>Cristian Silva<span>]</span>
+      </a>
+
+      <!-- Menú de navegación (Flexbox) -->
+      <ul class="menu">
+        <li><a href="#inicio" class="activo">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="./mascotas.html">🐾 Mascotas</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <!-- ============================
+  SECCIÓN INICIO / HÉROE
+  Grid: texto | foto
+  ============================ -->
+  <section id="inicio">
+    <div class="contenedor">
+
+      <!-- Grid de dos columnas -->
+      <div class="heroe">
+
+        <!-- Columna izquierda: texto -->
+        <div>
+          <p class="saludo">Hola, bienvenido a mi portafolio</p>
+          <h1>Trabajo con compromiso y con dedicación</h1>
+          <p>Soy un Desarrollador creativo que integra diseño y código para crear experiencias digitales memorables.</p>
+
+          <!-- Botones (Flexbox) -->
+          <div class="botones">
+            <a href="#proyectos" class="boton-principal">Ver Proyectos →</a>
+            <a href="#contacto" class="boton-secundario">Contáctame</a>
+          </div>
+        </div>
+
+        <!-- Columna derecha: foto -->
+        <div>
+          <!-- Si tienes foto, usa esta línea: -->
+          <!-- Reemplaza la ruta por la de tu imagen -->
+          <img class="foto-perfil" src="./public/image/fotocristian.png" alt="Foto de perfil" />
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================
+  SECCIÓN SOBRE MÍ
+  Grid: texto | tarjetas
+  ============================ -->
+  <section id="sobre-mi">
+    <div class="contenedor">
+
+      <span class="etiqueta">// Sobre mí</span>
+      <h2 class="titulo-seccion">Un poco sobre <span>mí</span></h2>
+
+      <!-- Grid de dos columnas -->
+      <div class="sobre-mi-contenido">
+
+        <!-- Columna izquierda: descripción y habilidades -->
+        <div>
+          <p>Soy [Cristian Silva], coder apasionado por crear soluciones digitales funcionales y atractivas.
+          Me encuentro en constante aprendisaje, fortaleciendo mis habilidades en desarrollo y diseño para construir experiencias web modernas y eficientes</p>
+          <p>Disfruto transformar ideas en proyectos reales cuidando tanto la estetica como el rendimiento.
+          Mi objetivo es seguir creciendo profesionalmente y aportar valor a través de la tecnología.</p>
+
+          <!-- Habilidades (Flexbox con flex-wrap) -->
+          <div class="habilidades">
+            <span class="habilidad">HTML5</span>
+            <span class="habilidad">CSS</span>
+            <span class="habilidad">Flexbox</span>
+            <span class="habilidad">CSS Grid</span>
+            <span class="habilidad">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Columna derecha: tarjetas de datos -->
+        <div>
+          <div class="tarjeta">
+            <h3>📚 Aprendiendo actualmente</h3>
+            <p>Fundamentos de usabilidad web, diseño centrado en el usuario y desarrollo frontend.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>🎵 Mi música</h3>
+            <p>Escucho Jazz mientras programo. ¡La concentración es todo!</p>
+          </div>
+          <div class="tarjeta">
+            <h3>⚡ Cómo trabajo</h3>
+            <p>Cada proyecto comienza entendiendo el problema real del usuario.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================
+  SECCIÓN PROYECTOS
+  Grid: 3 columnas
+  ============================ -->
+  <section id="proyectos">
+    <div class="contenedor">
+
+      <span class="etiqueta">// Proyectos</span>
+      <h2 class="titulo-seccion">Mi trabajo <span>creativo</span></h2>
+
+      <!-- Cuadrícula de proyectos (CSS Grid) -->
+      <ul class="proyectos-cuadricula">
+
+        <!-- Proyecto 1 -->
+        <li class="proyecto">
+  <a href="https://github.com/Mrcristian1102/Inventario.git" target="_blank" class="proyecto-link">
+    <div class="proyecto-placeholder">🌐</div>
+    <div class="proyecto-cuerpo">
+      <p class="proyecto-categoria">Python</p>
+      <h3>Sistema de Gestión de Inventario en Python</h3>
+      <p>Aplicación de consola diseñada para la administración eficiente de productos...</p>
+    </div>
+  </a>
+</li>
+
+
+        <!-- Proyecto 2 -->
+        <li class="proyecto">
+  <a href="https://github.com/Mrcristian1102/Sistema-de-Gesti-n-de-Estudiantes-con-Persistencia-de-Datos.git" target="_blank" class="proyecto-link">
+    <div class="proyecto-placeholder">📊</div>
+    <div class="proyecto-cuerpo">
+      <p class="proyecto-categoria">Python</p>
+      <h3>Sistema de Gestión de estudiantes con persistencias de datos</h3>
+      <p>Este proyecto es un sistema sencillo para gestionar la información básica de los estudiantes...</p>
+    </div>
+  </a>
+</li>
+
+
+      </ul>
+
+    </div>
+  </section>
+
+
+  <!-- ============================
+  SECCIÓN CONTACTO
+  Grid: info | formulario
+  ============================ -->
+  <section id="contacto">
+    <div class="contenedor">
+
+      <span class="etiqueta">// Contacto</span>
+      <h2 class="titulo-seccion">¡Hagamos algo <span>increíble!</span></h2>
+
+      <!-- Grid de dos columnas -->
+      <div class="contacto-contenido">
+
+        <!-- Columna izquierda: datos de contacto -->
+        <div>
+          <p>¿Tienes un proyecto en mente? Me encantaría escucharte.
+          Respondo en menos de 24 horas.</p>
+
+          <a href="#" onclick="alert('Correo enviado')" class="dato-contacto">
+            <span>✉️</span>
+            <div>
+              <small>Correo Electrónico</small>
+              mrcristian1103@gmail.com
+            </div>
+          </a>
+
+          <a href="#" onclick="alert('WhatsApp abierto')" class="dato-contacto">
+            <span>📱</span>
+            <div>
+              <small>WhatsApp</small>
+              +57 315 422 1397
+            </div>
+          </a>
+
+          <div class="dato-contacto">
+            <span>📍</span>
+            <div>
+              <small>Ubicación</small>
+              Barranquilla, Colombia.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Columna derecha: formulario de contacto -->
+        <div class="formulario">
+          <h3>Envíame un mensaje</h3>
+
+          <!-- Formulario con action="#" de prueba -->
+          <form action="#" method="post" onsubmit="alert('Mensaje enviado'); return false;">
+
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo Electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required />
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+            </div>
+
+            <button type="submit" class="boton-principal" style="width:100%; border:none; cursor:pointer; font-family:inherit;">
+              Enviar Mensaje ✉️
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================
+  PIE DE PÁGINA
+  Flexbox
+  ============================ -->
+  <footer>
+    <div class="contenedor">
+
+      <p>© 2025 <span>[Cristian Silva]</span> · Hecho en Colombia</p>
+
+      <ul class="redes">
+        <li>
+          <a href="https://github.com/Mrcristian1102" target="_blank" title="GitHub">
+            <!-- Icono GitHub SVG -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="./mascotas.html" title="Mis Mascotas">🐾</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+</body>
+</html>
