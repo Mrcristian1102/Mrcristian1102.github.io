@@ -1,21 +1,40 @@
 # Mi Portafolio
 
-Hola, este es mi sitio web personal donde muestro mis proyectos.
+Hola, este es mi sitio web personal. Aquí muestro mis proyectos, hablé un poco sobre mí y también tengo una sección especial para mis mascotas.
 
 ## Cómo verlo
 
-Solo abre el archivo `index.html` en tu navegador.
+1. Descarga o clona este repositorio
+2. Abre el archivo `index.html` en tu navegador web
+3. ¡Listo! Ya puedes ver el sitio
 
-## Lo que usé
+## Lo que encontrarás
+
+**En la página principal (index.html):**
+- Mi introducción
+- Información sobre mí
+- Los proyectos que he hecho
+- Formulario de contacto
+
+**En la página de mascotas (mascotas.html):**
+- Fotos e información de mis mascotas
+
+## Tecnologías que usé
 
 - HTML
-- CSS
+- CSS (con diseño responsivo)
 - JavaScript
 
-## Archivos
+## Estructura de carpetas
 
-- `index.html` - La página principal
-- `mascotas.html` - Mis mascotas
-- `css/` - Los estilos
-- `js/script.js` - El JavaScript
-- `public/image/` - Las fotos
+```
+├── index.html
+├── mascotas.html
+├── css/
+├── js/
+└── public/
+```
+
+## Contacto
+
+mrcristian1103@gmail.com
