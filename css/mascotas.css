@@ -15,7 +15,6 @@
   font-size: 1rem;
 }
 
-/* ===== BOTÓN REGRESAR ===== */
 .boton-regresar {
   display: inline-flex;
   align-items: center;
@@ -35,7 +34,6 @@
   color: var(--color-amarillo);
 }
 
-/* ===== GALERÍA ===== */
 .seccion-galeria {
   padding: 3.125rem 0;
   border-top: 1px solid var(--color-borde);
@@ -57,7 +55,6 @@
   grid-column: span 2;
 }
 
-/* ===== TARJETA MASCOTA ===== */
 .tarjeta-mascota {
   background-color: var(--color-tarjeta);
   border: 1px solid var(--color-borde);
@@ -123,7 +120,6 @@
   line-height: 1.5;
 }
 
-/* ===== CARACTERÍSTICAS ===== */
 .caracteristicas {
   display: flex;
   flex-wrap: wrap;
@@ -140,7 +136,6 @@
   border: 1px solid rgba(245, 230, 66, 0.2);
 }
 
-/* ===== SECCIÓN MOSAICO ===== */
 .seccion-mosaico {
   padding: 3.125rem 0;
   border-top: 1px solid var(--color-borde);
@@ -181,7 +176,6 @@
   box-shadow: 0 0.5rem 1.5625rem rgba(0, 0, 0, 0.5);
 }
 
-/* ===== MEDIA QUERIES TABLETS (768px - 1024px) ===== */
 @media (max-width: 1024px) {
   .cabecera-mascotas h1 {
     font-size: 2.5rem;
@@ -203,7 +197,6 @@
   }
 }
 
-/* ===== MEDIA QUERIES MÓVILES (max 768px) ===== */
 @media (max-width: 768px) {
   .cabecera-mascotas {
     padding: 3rem 0 2rem;
@@ -270,7 +263,6 @@
   }
 }
 
-/* ===== MEDIA QUERIES MÓVILES PEQUEÑOS (max 480px) ===== */
 @media (max-width: 480px) {
   .cabecera-mascotas {
     padding: 2rem 0 1.5rem;

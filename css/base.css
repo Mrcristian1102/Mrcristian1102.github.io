@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-/* COLORES */
+/* Colores */
 --color-fondo: #0a0a0a;
 --color-tarjeta: #1a1a1a;
 --color-amarillo: #f5e642;
@@ -9,7 +9,7 @@
 --color-texto-gris: #aaaaaa;
 --color-borde: #2a2a2a;
 
-/* TIPOGRAFÍA */
+/* Tipografía */
 --font-family: 'Poppins', sans-serif;
 --font-size-base: 1rem;
 --font-size-sm: 0.875rem;
@@ -19,7 +19,7 @@
 --font-size-2xl: 2rem;
 --font-size-3xl: 3rem;
 
-/* ESPACIADO */
+/* Espaciado */
 --spacing-xs: 0.25rem;
 --spacing-sm: 0.5rem;
 --spacing-md: 1rem;
@@ -27,13 +27,13 @@
 --spacing-xl: 2rem;
 --spacing-2xl: 3rem;
 
-/* BORDER RADIUS */
+/* Border radius */
 --radius-sm: 8px;
 --radius-md: 12px;
 --radius-lg: 16px;
 --radius-full: 50px;
 
-/* TRANSICIONES */
+/* Transiciones */
 --transition: all 0.2s ease;
 --transition-lg: all 0.3s ease;
 }
@@ -78,8 +78,8 @@ margin: 0 auto;
 padding: 0 1.25rem;
 }
 
-/* MEDIA QUERIES */
-/* TABLETS (768px - 1024px) */
+/* Media queries */
+/* Tablets (768px - 1024px) */
 @media (max-width: 1024px) {
   html {
     font-size: 15px;
@@ -90,7 +90,7 @@ padding: 0 1.25rem;
   }
 }
 
-/* MÓVILES (max 768px) */
+/* Móviles (max 768px) */
 @media (max-width: 768px) {
   html {
     font-size: 14px;
@@ -101,7 +101,7 @@ padding: 0 1.25rem;
   }
 }
 
-/* MÓVILES PEQUEÑOS (max 480px) */
+/* Móviles pequeños (max 480px) */
 @media (max-width: 480px) {
   html {
     font-size: 13px;

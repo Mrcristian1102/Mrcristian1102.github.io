@@ -2,7 +2,6 @@
   padding: 5rem 0;
 }
 
-/* ===== SECCIÓN HÉROE ===== */
 .heroe {
   display: grid;
   grid-template-columns: 1fr 21.875rem;
@@ -33,7 +32,6 @@
   line-height: 1.7;
 }
 
-/* ===== BOTONES ===== */
 .botones {
   display: flex;
   gap: 0.75rem;
@@ -76,7 +74,6 @@
   color: var(--color-amarillo);
 }
 
-/* ===== FOTOS ===== */
 .foto-perfil,
 .foto-placeholder {
   width: 100%;
@@ -96,7 +93,6 @@
   font-size: 3.75rem;
 }
 
-/* ===== SOBRE MÍ ===== */
 .sobre-mi-contenido {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -110,7 +106,6 @@
   line-height: 1.8;
 }
 
-/* ===== HABILIDADES ===== */
 .habilidades {
   display: flex;
   flex-wrap: wrap;
@@ -134,7 +129,6 @@
   color: var(--color-amarillo);
 }
 
-/* ===== PROYECTOS ===== */
 .proyectos-cuadricula {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -204,7 +198,6 @@
   line-height: 1.5;
 }
 
-/* ===== CONTACTO ===== */
 .contacto-contenido {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -248,7 +241,6 @@
   letter-spacing: 1px;
 }
 
-/* ===== FORMULARIO ===== */
 .formulario {
   background-color: var(--color-tarjeta);
   border: 1px solid var(--color-borde);
@@ -300,7 +292,6 @@
   resize: vertical;
 }
 
-/* ===== MEDIA QUERIES TABLETS (768px - 1024px) ===== */
 @media (max-width: 1024px) {
   #inicio {
     padding: 3.5rem 0;
@@ -339,7 +330,6 @@
   }
 }
 
-/* ===== MEDIA QUERIES MÓVILES (max 768px) ===== */
 @media (max-width: 768px) {
   #inicio {
     padding: 2.5rem 0;
@@ -422,7 +412,6 @@
   }
 }
 
-/* ===== MEDIA QUERIES MÓVILES PEQUEÑOS (max 480px) ===== */
 @media (max-width: 480px) {
   #inicio {
     padding: 2rem 0;
