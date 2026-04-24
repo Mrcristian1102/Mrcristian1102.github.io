@@ -34,7 +34,3 @@ Hola, este es mi sitio web personal. Aquí muestro mis proyectos, hablé un poco
 ├── js/
 └── public/
 ```
-
-## Contacto
-
-mrcristian1103@gmail.com
