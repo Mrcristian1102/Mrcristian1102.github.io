@@ -1,12 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
+/* COLORES */
 --color-fondo: #0a0a0a;
 --color-tarjeta: #1a1a1a;
 --color-amarillo: #f5e642;
 --color-texto: #ffffff;
 --color-texto-gris: #aaaaaa;
 --color-borde: #2a2a2a;
+
+/* TIPOGRAFÍA */
+--font-family: 'Poppins', sans-serif;
+--font-size-base: 1rem;
+--font-size-sm: 0.875rem;
+--font-size-xs: 0.75rem;
+--font-size-lg: 1.25rem;
+--font-size-xl: 1.5rem;
+--font-size-2xl: 2rem;
+--font-size-3xl: 3rem;
+
+/* ESPACIADO */
+--spacing-xs: 0.25rem;
+--spacing-sm: 0.5rem;
+--spacing-md: 1rem;
+--spacing-lg: 1.5rem;
+--spacing-xl: 2rem;
+--spacing-2xl: 3rem;
+
+/* BORDER RADIUS */
+--radius-sm: 8px;
+--radius-md: 12px;
+--radius-lg: 16px;
+--radius-full: 50px;
+
+/* TRANSICIONES */
+--transition: all 0.2s ease;
+--transition-lg: all 0.3s ease;
 }
 
 * {
@@ -17,12 +46,13 @@ box-sizing: border-box;
 
 html {
 scroll-behavior: smooth;
+font-size: 16px;
 }
 
 body {
 background-color: var(--color-fondo);
 color: var(--color-texto);
-font-family: 'Poppins', sans-serif;
+font-family: var(--font-family);
 line-height: 1.6;
 }
 
@@ -31,6 +61,7 @@ picture,
 video,
 svg {
 max-width: 100%;
+height: auto;
 display: block;
 }
 
@@ -44,5 +75,39 @@ font: inherit;
 .contenedor {
 max-width: 1100px;
 margin: 0 auto;
-padding: 0 20px;
+padding: 0 1.25rem;
+}
+
+/* MEDIA QUERIES */
+/* TABLETS (768px - 1024px) */
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+  
+  .contenedor {
+    padding: 0 1rem;
+  }
+}
+
+/* MÓVILES (max 768px) */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .contenedor {
+    padding: 0 0.875rem;
+  }
+}
+
+/* MÓVILES PEQUEÑOS (max 480px) */
+@media (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+  
+  .contenedor {
+    padding: 0 0.75rem;
+  }
 }
