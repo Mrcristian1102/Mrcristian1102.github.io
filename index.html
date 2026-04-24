@@ -191,7 +191,7 @@
           <p>¿Tienes un proyecto en mente? Me encantaría escucharte.
           Respondo en menos de 24 horas.</p>
 
-          <a href="#correo" class="dato-contacto">
+          <a href="#" onclick="enviarCorreo()" class="dato-contacto">
             <span>✉️</span>
             <div>
               <small>Correo Electrónico</small>
@@ -199,7 +199,7 @@
             </div>
           </a>
 
-          <a href="#whatsapp" class="dato-contacto">
+          <a href="#" onclick="abrirWhatsApp()" class="dato-contacto">
             <span>📱</span>
             <div>
               <small>WhatsApp</small>
@@ -222,7 +222,7 @@
           <h3>Envíame un mensaje</h3>
 
           <!-- Formulario con action="#" de prueba -->
-          <form action="#" method="post">
+          <form action="#" method="post" onsubmit="return enviarMensaje()">
 
             <div class="campo">
               <label for="nombre">Nombre</label>

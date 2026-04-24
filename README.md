@@ -1,35 +1,21 @@
-# Mi Portafolio Web
+# Mi Portafolio
 
-Este es mi portafolio personal donde muestro mis proyectos y un poco sobre mí.
+Hola, este es mi sitio web personal donde muestro mis proyectos.
 
-## Cómo ver el proyecto
+## Cómo verlo
 
-1. Descarga o clona este repositorio
-2. Abre el archivo `index.html` en tu navegador web
-3. Navega por las diferentes secciones
+Solo abre el archivo `index.html` en tu navegador.
 
-## Tecnologías usadas
+## Lo que usé
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
-## Estructura del proyecto
+## Archivos
 
-```
-portafolio/
-├── index.html          # Página principal
-├── mascotas.html       # Página de mis mascotas
-├── css/                # Estilos CSS
-│   ├── base.css
-│   ├── estructura.css
-│   └── portfolio.css
-├── js/                 # JavaScript
-│   └── script.js
-└── public/             # Imágenes
-    └── image/
-```
-
-## Contacto
-
-Si quieres contactarme, puedes escribirme a mrcristian1103@gmail.com
+- `index.html` - La página principal
+- `mascotas.html` - Mis mascotas
+- `css/` - Los estilos
+- `js/script.js` - El JavaScript
+- `public/image/` - Las fotos
